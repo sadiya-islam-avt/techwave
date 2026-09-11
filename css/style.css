@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.logo span {
+    background: linear-gradient(
+        90deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 20px;
+
+    background: linear-gradient(
+        90deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8
+    );
+
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.hero {
+    padding: 40px 20px;
+    background: url(../assets/hero-bg.png) center/cover no-repeat;
+}
+
+.hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic-area {
+    position: relative;
+
+    width: 170px;
+    height: 170px;
+
+    border: 3px solid #2d1b78;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic-area img {
+    width: 80px;
+    height: auto;
+}
+
+.new {
+    position: absolute;
+    top: 0;
+    right: -10px;
+
+    padding: 4px 8px;
+
+    background-color: #00ff88;
+    color: #000;
+
+    border-radius: 20px;
+
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.spotify-btn {
+    padding: 8px 14px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.subscribe-btn {
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    padding: 8px 14px;
+    color: #00FF88;
+    font-size: 20px;
+    text-decoration: none;
+}
