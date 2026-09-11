@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0f0f0f;
+    background-color: #412567;
     color: white;
 }
 
@@ -14,11 +14,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px 20px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
 }
 
 .logo {
@@ -51,24 +49,21 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-
     padding: 12px 20px;
-
     background: linear-gradient(
         90deg,
         #F7E93F,
         #FB09B4,
         #9100F8
     );
-
     border-radius: 20px;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
     color: white;
 }
+
 .hero {
-   
     padding: 40px 20px;
     background: url(../assets/hero-bg.png) center/cover no-repeat;
     border-bottom: 3px solid #302044;
@@ -83,13 +78,10 @@ body {
 
 .mic-area {
     position: relative;
-
     width: 170px;
     height: 170px;
-
     border: 3px solid #2d1b78;
     border-radius: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,14 +96,10 @@ body {
     position: absolute;
     top: 0;
     right: -10px;
-
     padding: 4px 8px;
-
     background-color: #00ff88;
     color: #000;
-
     border-radius: 20px;
-
     font-size: 10px;
     font-weight: 700;
 }
@@ -129,7 +117,6 @@ body {
 .hero-content p {
     font-size: 14px;
     margin: 10px 0 20px;
-   
 }
 
 .hero-buttons {
@@ -154,26 +141,30 @@ body {
     text-decoration: none;
 }
 
-.about{
+.about {
     padding: 70px 20px;
     background-color: #1A0B2E;
 }
-.about-content{
+
+.about-content {
     max-width: 750px;
     margin: 0 auto;
     text-align: center;
 }
-.about-content h2{
+
+.about-content h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
-.about-content p{
+
+.about-content p {
     font-size: 10px;
     line-height: 1.7;
     margin-bottom: 12px;
     color: #dfd8d8;
 }
-.stats{
+
+.stats {
     max-width: 900px;
     margin: 50px auto 0;
     padding-top: 30px;
@@ -182,13 +173,82 @@ body {
     justify-content: space-between;
     text-align: center;
 }
-.stat-item h3{
+
+.stat-item h3 {
     font-size: 28px;
     color: #00FF88;
     margin-bottom: 8px;
-     
 }
-.stat-item p{
+
+.stat-item p {
     font-size: 10px;
+    color: #dfd8d8;
+}
+
+.why-choose {
+    padding: 70px 20px;
+    background-color: #230E3D;
+}
+
+.why-choose > h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.features {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 16px;
+}
+
+.card-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.card-2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.card-3 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.card-4 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.card-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.feature-card {
+    padding: 25px;
+    background-color: #301451;
+    border-radius: 16px;
+}
+
+.feature-card i {
+    font-size: 25px;
+    color: #FB09B4;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 12px;
+    line-height: 1.6;
     color: #dfd8d8;
 }
