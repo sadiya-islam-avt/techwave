@@ -104,26 +104,7 @@ body {
     font-weight: 700;
 }
 
-.hero-content {
-    text-align: center;
-}
 
-.hero-content h1 {
-    font-size: 48px;
-    font-weight: 700;
-    padding-top: 15px;
-}
-
-.hero-content p {
-    font-size: 14px;
-    margin: 10px 0 20px;
-}
-
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
 
 .spotify-btn {
     padding: 8px 14px;
@@ -252,3 +233,153 @@ body {
     line-height: 1.6;
     color: #dfd8d8;
 }
+
+.episodes-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+
+.episode-card {
+    background-color: #210f37;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.host {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 18px;
+   
+   
+
+} 
+
+.host-card{
+   background-color: #351165;
+   margin: 130px;
+    padding: 70px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.host-content{
+    flex: 1;
+   
+}
+.host-content h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.host-content p{ 
+    font-size: 13px;
+    line-height: 1.6;
+    color: #dfd8d8;
+    margin-bottom: 12px;
+}
+ .hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.hero-content p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+footer {
+    position: relative;
+    min-height: 160px;
+
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 20px 25px;
+}
+
+footer > img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 112%;
+    height: 130px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+footer h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.png {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.png img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+}
+
+.footer-text {
+    position: relative;
+    z-index: 1;
+    margin-top: 12px;
+    font-size: 8px;
+    color: #aaa;
+}
+
+
